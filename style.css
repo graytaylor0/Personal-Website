@@ -1,0 +1,248 @@
+html, body {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    background-color: #EB6E1F;
+    height: 15%;
+    border-bottom: 5px solid rgb(219, 224, 231);
+    border-top: 5px solid rgb(219, 224, 231);
+}
+
+.navbar li {
+    padding-left: 5%;
+}
+
+.navbar a {
+    color: #002D62;
+    text-transform: uppercase;
+}
+
+.navbar a:hover {
+    color: rgb(219, 224, 231);
+}
+
+.navbar .selected{
+    color: rgb(219, 224, 231)
+}
+
+.page {
+    padding-top: 10%;
+    background-color: #002D62;
+    width: 100%;
+    height: 100%;
+}
+
+.page-title, .interests, .pitch, .about-description, .projects-description {
+    text-align: center;
+    font-size: 120px;
+    font-family: 'lobsterregular', cursive;
+    color: rgb(219, 224, 231);
+}
+
+.education-container, .resume-container, .experience-container, .projects {
+    height: 390px;
+    font-family: 'lobsterregular', cursive;
+    color: rgb(219, 224, 231);
+    border: 6px solid #EB6E1F;
+}
+
+.grid-container {
+    padding-left: 6%;
+    padding-right: 4%;
+    display: grid;
+    grid-gap: 4%;
+    grid-template-columns: 25% 40% 25%;
+}
+
+.grid-container-service {
+    padding-left: 6%;
+    padding-right: 4%;
+    display: grid;
+    grid-gap: 4%;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.social-media-icons {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+
+.link-column {
+    margin: 0 auto;
+}
+
+.ada {
+    font-size: 18px;
+}
+.facebook-link {
+    padding-right: 35%;
+}
+
+.education-list {
+    font-size: 25px;
+    list-style-type: square;
+}
+
+.education-date, .education-description {
+    color: #EB6E1F;
+    font-size: 15px;
+}
+
+.resume-header {
+    padding-left: 17%;
+}
+
+.full-pdf {
+    float: right;
+    color: #EB6E1F;
+    font-size: 15px;
+    padding-right: 3%;
+}
+
+.career-header {
+    padding-top: 3%;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'lobsterregular', cursive;
+    color: rgb(219, 224, 231);
+}
+
+.interests {
+    font-size: 40px;
+    padding-top: 3%;
+}
+
+.motivation-description {
+    font-size: 18px;
+    text-align: center;
+}
+
+.praxio-description {
+    text-align: center;
+    font-size: 18px;
+}
+
+.ada-description {
+    text-align: center;
+    font-size: 15px;
+}
+
+.projects-explanation {
+    text-align: center;
+    font-size: 18px;
+}
+
+.about, .projects {
+    height: 390px;
+    width: 40%;
+    margin: 0 auto;
+    border: 6px solid #EB6E1F;
+}
+
+.connect {
+    width: 60%;
+    margin: 0 auto;
+    border: 6px solid #EB6E1F;
+    height: 250px;
+}
+
+.pitch {
+    padding-top: 3%;
+    font-size: 30px;
+    text-align: left;
+    list-style-type: square;
+}
+
+.connect-pitch {
+    padding-top: 0;
+}
+
+.pitch-item {
+    padding: 2px 0 5px 0;
+    padding-left: 5%;
+}
+
+.about-image {
+    border: 2px solid #EB6E1F;
+    border-radius: 12px;
+    position: relative;
+    bottom: 155px;
+    left: 72%;
+}
+.projects-description {
+    font-size: 50px;
+}
+
+.experience-description {
+    font-size: 25px;
+    text-align: center;
+}
+
+.fa-facebook {
+    background-color: #3B5998;
+    color: white;
+    font-size: 30px;
+}
+
+.fa-youtube {
+    background-color: #bb0000;
+    color: white;
+    font-size: 40px;
+}
+
+.fa-linkedin {
+    background-color: #007bb5;
+    color: white;
+    font-size: 30px;
+}
+
+.fa:hover {
+    background-color: rgb(167, 159, 159);
+    text-decoration: underline;
+}
+
+.youtube-description {
+    font-size: 25px;
+}
+
+.connect-item {
+    display: inline-block;
+    padding-right: 10%;
+}
+
+a:hover{
+    text-decoration: none;
+    color: auto;
+}
+.github-link {
+    color: #EB6E1F;
+}
+
+.tamu-link {
+    color: rgb(219, 224, 231);
+}
+
+.involvement-item {
+    font-size: 18px;
+    color: #EB6E1F;
+}
+
+.about-description{
+    font-size: 20px;
+    position: relative;
+    bottom: 170px;
+    text-align: left;
+    padding-left: 20px;
+} 
